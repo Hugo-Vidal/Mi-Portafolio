@@ -1,0 +1,81 @@
+html {
+    
+  }
+  
+body {
+    /*font-family: 'Margarine', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Open Sans', sans-serif;*/
+font-family: 'Nunito', sans-serif;
+    
+    font-size: 1.3rem;
+}
+
+.logo-hugo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem; 
+    color: #ffffff;
+
+}
+
+.nav-style {
+    background-color: #000000;
+    font-size: 1.2rem;
+}
+
+.hero-style {
+    background-image: url(../img/eberhard-grossgasteiger-1233330-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 47rem;
+}
+
+.bottom-h2 {
+    position: relative;
+    top: 26rem;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 5px 3px 10px white;
+}
+
+.bottom-h1 {
+    position: relative;
+    top: 28rem;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+}
+
+.hr-fine{
+    border-top: 1px solid #b8b6b4;
+}
+
+
+.hr-bottom {
+    border-bottom: 1.5px solid #000000;
+}
+
+.last-work {
+    background-color: #8a8989;
+}
+
+.fa-icon {
+    color: rgb(247, 243, 243);
+}
+
+.card-img-top {
+    height: 11rem;
+}
+
+.carousel-indicators {
+    top: 110px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
