@@ -42,7 +42,7 @@ font-family: 'Nunito', sans-serif;
     top: 21.5rem;
     font-size: 1.7rem;
     text-align: center;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 5px 5px 10px white;
 }
 
 .hr-fine{
@@ -85,4 +85,8 @@ font-family: 'Nunito', sans-serif;
     position: absolute;
     bottom: 1rem;
     right: 1rem;
+}
+
+a:hover {
+    color: black;
 }
