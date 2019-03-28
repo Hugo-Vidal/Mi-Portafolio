@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.img-white {
+    width: 10rem;
+}
+
+.img-black {
+    width: 10rem;
+}
+
+.color-gris {
+    color: #707070;
+}
+
+.color-negro {
+    color: #212529;
+}
+
+.color-green {
+    color: #28A745;
+    font-size: 1.5rem;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.robot-light {
+    font-display: 300;
+}
+
+.tamaño-texto {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.bg-blanco {
+    background-color: white;
+
+}
+
+.send-width {
+    width: 7rem;
+}
