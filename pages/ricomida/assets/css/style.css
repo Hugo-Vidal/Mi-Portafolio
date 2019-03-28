@@ -1,0 +1,61 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.cabin-700 {
+    font-weight: 700;
+}
+
+.img-principal {
+    width: 34.5em;
+}
+.logo-top {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.logo-bot{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.newsletter {
+    font-size: 2em;
+    font-weight: 400;
+    background-color: #DC3545;
+}
+
+.carousel-indicators {
+    top: 11.7em; 
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.btn-mio {
+    border-color: #DDDDDD;
+}
+
+.img-slide {
+    width: 17em;
+}
+
+hr {
+    border: 1px;
+    border-style: solid;
+}
+
+.hr-fino {
+    border-bottom: 1px solid black;
+}
+
+.btn-footer {
+    border-color: #DC3545;
+    border-style: solid;
+    border: 1px;
+}
