@@ -13,7 +13,6 @@ font-family: 'Nunito', sans-serif;
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5rem; 
     color: #ffffff;
-
 }
 
 .nav-style {
@@ -28,6 +27,7 @@ font-family: 'Nunito', sans-serif;
     width: 100%;
     height: 44.5rem;
 }
+
 
 .bottom-h2 {
     position: relative;
@@ -59,7 +59,7 @@ font-family: 'Nunito', sans-serif;
 }
 
 .last-work {
-    background-color: #b8b8b8;
+    background-color: #c4c2c0 
 }
 
 .fa-icon {
@@ -75,8 +75,8 @@ font-family: 'Nunito', sans-serif;
 }
 
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
+    width: 0.625rem;
+    height: 0.625rem;
     border-radius: 50%;
     background-color: black;
 }
@@ -90,3 +90,34 @@ font-family: 'Nunito', sans-serif;
 a:hover {
     color: black;
 }
+
+li {
+    list-style-type: none;
+  }
+
+.p-formacion {
+    font-size: 1.6rem;
+}
+
+.fixed-top.scrolled {
+    background-color: #000000;
+    transition: background-color 300ms linear;
+  }
+
+.logo-hugo-nav {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem; 
+    color: #000000;
+    background-color: transparent;
+}
+
+.bg-nav-hugo {
+    transition: 400ms ease;
+    background: transparent;
+}
+
+.bg-nav-hugo.scrolled {
+    background: black;
+    color: white;
+}
+

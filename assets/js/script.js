@@ -1,8 +1,8 @@
 $(function(){
 
   $("a").click(function(event){
-    if (this.hash !== "") { //si this (a.hash) es no identico a nada, ejecuta lo siguiente
-      event.preventDefault(); //Con esto, prevenimos lo que hacia antes.
+    if (this.hash !== "") { 
+      event.preventDefault();
 
       var gato = this.hash;
 
@@ -12,6 +12,14 @@ $(function(){
         window.location.hash = gato;
       });
     }
+  });
+
+  $(window).scroll(function(){
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 150)
+  });
+
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
   });
 
   $('[data-toggle="tooltip"]').tooltip();
